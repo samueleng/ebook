@@ -1,0 +1,16 @@
+{
+  "client_id": "https://raw.githack.com/samueleng/ebook/master/worldidp-cimd/world-client.json",
+  "client_name": "sam-research-h1",
+  "redirect_uris": [
+    "https://webhook.site/d9f42957-bd77-4e4f-9711-6cb3db0b4068"
+  ],
+  "token_endpoint_auth_method": "none",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "scope": "openid offline_access"
+}
