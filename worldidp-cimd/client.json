@@ -1,17 +1,14 @@
 {
-  "client_name": "samengmg-h1-research",
+  "client_name": "playground-research",
   "redirect_uris": [
-    "https://raw.githubusercontent.com/samueleng/ebook/master/worldidp-cimd/callback"
+    "https://oauth-playground.toolsforhumanity.dev/callback"
   ],
-  "token_endpoint_auth_methods_supported": [
-    "none"
-  ],
+  "token_endpoint_auth_method": "none",
   "grant_types": [
-    "authorization_code",
-    "refresh_token"
+    "authorization_code"
   ],
   "response_types": [
     "code"
   ],
-  "scope": "openid offline_access"
+  "scope": "playground:read openid offline_access"
 }
