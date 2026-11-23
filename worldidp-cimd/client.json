@@ -1,11 +1,14 @@
 {
   "client_name": "samengmg-h1-research",
   "redirect_uris": [
-    "https://cdn.jsdelivr.net/gh/samueleng/ebook@master/worldidp-cimd/callback"
+    "https://raw.githubusercontent.com/samueleng/ebook/master/worldidp-cimd/callback"
   ],
-  "token_endpoint_auth_method": "none",
+  "token_endpoint_auth_methods_supported": [
+    "none"
+  ],
   "grant_types": [
-    "authorization_code"
+    "authorization_code",
+    "refresh_token"
   ],
   "response_types": [
     "code"
