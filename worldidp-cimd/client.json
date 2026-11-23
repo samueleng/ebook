@@ -1,0 +1,15 @@
+{
+  "client_name": "samengmg-h1-research",
+  "redirect_uris": [
+    "https://example.com/cb"
+  ],
+  "token_endpoint_auth_method": "none",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "scope": "openid offline_access"
+}
